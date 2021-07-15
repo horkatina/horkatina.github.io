@@ -2,8 +2,8 @@
 name: "DONGHO KANG"
 title: "DONGHO KANG"
 description: "Robotics"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'img/icon.png'
+favicon: 'img/icon.png'
 baseurl: "https://rubberdk.github.io/"
 url: "https://rubberdk.github.io/"
 google_analytics: 'UA-46278016-1'
