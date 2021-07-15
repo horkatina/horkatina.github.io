@@ -91,30 +91,31 @@ I have implemented the node `arm_control` for Adroit to detect the fire, grab th
     <img src="/img/search.gif" alt="search">
 </div>
 
-        *Adroit Searching Mode*
+    *Adroit Searching Mode*
 
 
 <div class="post-flex-display">
     <img src="/img/joints.jpg" alt="joints">
 </div>
 
-        *Joints Movements*
+    *Joints Movements*
 
 
 The Adroit makes joint movements on its joint 1 and 6 to scan the enviroment until it detects the something with a high temperature value. The threshold for the temperature was set to 70 deg C (~156 deg F) for this project since I used a heater as my heat source, but this value would have been set higher if it were to work with a real fire.
+
 
 <div class="post-flex-display">
     <img src="/img/search2.gif" alt="search2">
 </div>
 
-        *Thermal Camera View*
+    *Thermal Camera View*
 
 
 <div class="post-flex-display">
     <img src="/img/algo.jpg" alt="algo">
 </div>
 
-        *Align Mechanism*
+    *Align Mechanism*
 
 When the Adroit detects something above 70 deg C, it will try to align the center of the camera view to the heat source by adjusting joint 1 and 3. The figure above represets its mechanism. When the robot aligns wit the heat source, it remembers joints positions so that Adroit can comeback to this position after grabbing the fire extinguisher. In this case, the Adroit's joint 1 is a little bit smaller than remebered joint position because the fire extingushier will be located slightly left to the thermal camera.
 
