@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  Baxter-Builds-Towers
-permalink: /baxtower/
-date:   2020-12-04 00:00:00
-image:  fasttower.gif
+image:  img/fasttower.gif
 tags:   [ROS, Pick-n-Place, Apriltag, Python]
+author: dk
 ---
 
 # Project Overview

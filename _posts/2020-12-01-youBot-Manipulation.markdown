@@ -1,10 +1,9 @@
 ---
 layout: post
 title: KUKA youBot Manipulation
-permalink: /hand_robot/
-date: 2020-12-01 00:00:00
-image: youbot.gif
-tags: [Python, CoppeliaSim, Control]
+image: img/youbot.gif
+tags: [Python, CoppeliaSim, Control,Manipulation]
+author: dk
 ---
 
 # Introduction

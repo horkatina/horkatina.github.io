@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Digital Rat Whisker Simulation
-permalink: /digital_rat/
-date: 2021-3-18 00:00:00
-image: fire.jpg
+image: img/rat_nav.gif
 tags: [C++, BulletPhysics, Whikser, Rat, Simulation]
+featured: true
+hidden: true
+author: dk
 ---

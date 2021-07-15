@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous Firefighting Robot Arm
-image: fire.jpg
+image: img/fire.jpg
 tags: [ROS, Python, Thermal Imaging, Manipulation]
 featured: true
 hidden: true
@@ -9,7 +9,6 @@ author: dk
 ---
 
 
-# AUTONOMOUS FIREFIGHTING ROBOT ARM
 HDT Adroit 6DOF A24 Pincer Manipulation of a fire extingushier using a thermal camera
 
 This is a Winter Project of MSR Program at Northwestern University

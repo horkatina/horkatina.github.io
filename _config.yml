@@ -31,7 +31,13 @@ authors:
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
+  dk:
+    name: DK
+    display_name: Dongho Kang (DK)
+    avatar: 'img/dkprofile.jpg'
+    email: dhk6869@gmail.com
+    web: https://rubberdk.github.io
+    description: "Robotician at Northwestern University"
 # Plugins
 plugins:
   - jekyll-paginate
