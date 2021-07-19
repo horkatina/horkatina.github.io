@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 <div class="post-flex-display">
-    <img src="/img/dkprofile.jpg" alt="dkprofile">
+    <img src="/img/dkprofile.jpg" width="200" alt="dkprofile">
 </div>
 
 Hello! My name is Dongho Kang (DK), a robotician at Northwestern University.
