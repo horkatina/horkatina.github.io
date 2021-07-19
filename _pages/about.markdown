@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: post
 title: About Me
 permalink: /about
-comments: true
 ---
-
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
 
 <div class="post-flex-display">
     <img src="/img/dkprofile.jpg" alt="dkprofile">
