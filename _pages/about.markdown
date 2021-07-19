@@ -27,16 +27,3 @@ My [Autonomous Fire Fighter Robot Arm](https://rubberdk.github.io/firefigther-ro
 
 
 
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Contact</h5>
-
-<p>Thank you for your stopping by! You can check <a target="_blank" href="https://github.com/rubberdk">Github <i class="fab fa-github"></i></a>.</p>
-<p> My email: dhk6869@gmail.com </p>
-
-<a target="_blank" href="https://www.linkedin.com/in/dongho-kang-8a692b1b3/" class="btn btn-danger">Linkedin</a> 
-
-</div>
-</div>
-</div>
