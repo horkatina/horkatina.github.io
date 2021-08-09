@@ -75,7 +75,7 @@ This package takes care of detecting a highest spot in the camera view and readi
     <img src="/img/self.jpg" alt="example">
 </div>
 
-  *Image of a human through a thermal camera*
+*Image of a human through a thermal camera*
 
 FLIR Lepton 2.5 thermal camera can detect the temperature using its radiometry in a gray scale. The pixel value in the gray scale, for example, shows some value such as 40,000 which represents 400.00 K. The node `thermal_detection` detects the pixel with the highest temperature and convers into celcious scale. In addtion, it publishes the temperature value and 2D x-y coordinates of the image as `rostopic` so that the Adroit can execute its movements based on those values.
 
