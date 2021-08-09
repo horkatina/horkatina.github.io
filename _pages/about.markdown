@@ -17,14 +17,14 @@ My [Autonomous Fire Fighter Robot Arm](https://rubberdk.github.io/firefigther-ro
 Another my big interest in robotics comes in devleoping bio-inspired senosrs or robots. My final project [Digital Rat Whiskers Simulation](https://rubberdk.github.io/Digital-Rat-Whisker-Simulation/) focuses on understanding dynamic data that a rat obtains through whisking over different shapes of objects and integrating those data to implement exploration algorithm for a rat in a simulation.  Rats use whiskers to navigate thorugh holes and find open space, As they scan, their whiskers make unexpected contact with an object, and the rat then explores the object to extract the details of its shape. The use of whisker inputs to detect, localize, and extract the spatial properties of objects. Whiksers allow rats to operate in complete darkness<sup>1</sup>, and I think that integrating these features to implement whisker-inspired tacile sensors can benefit robotic navigation and explortation technology.
 
 
-## Future Goals
-Current manipulation tasks faces numerous problems. While human hands can grab a wide variety of shapes and sizes thanks to multiple fingers with multiple degrees of freedom and espeically our control capability with tacile and force sensing<sup>2</sup>, current commercial robot arms include simple open-close type grippers. Dexterous robotic manipulation requires sophiscated tacile sensing. Moreover, robotic arms will be able to grab various shapes of objects utilizing with soft pneumatic acutator.
+### Future Goals
+My future goal as a robotician aims creating an autonmous mobile robotic manipulator which can cooperate with other human and robots 
+Current manipulation tasks faces numerous problems. While human hands can grab a wide variety of shapes and sizes thanks to multiple fingers with multiple degrees of freedom and espeically our control capability with tacile and force sensing<sup>2</sup>. While current commercial robot arms include simple open-close type grippers, dexterous robotic manipulation requires sophiscated tacile sensing. In addition, robotic arms will be able to grab various shapes of objects utilizing with soft pneumatic acutator. 
 
 
-
-
-## Research Interest
+### Research Interest
  - Sensing and Manipulation
+ - Autonomous Systems
  - Bio-inspired Robotics/Soft Robotics
  - Human Robot Collaboration 
  - Human-Robot Interaction
