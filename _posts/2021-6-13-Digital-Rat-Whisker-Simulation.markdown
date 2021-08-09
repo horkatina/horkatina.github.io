@@ -10,6 +10,7 @@ author: dk
 
 This is my Final Project for Master of Science in Robotics program at Northwestern University.
 This is still on-going project which will be finihsed in December 2021. This post includes the progress up to June 2021.
+You can check my [github repository](https://github.com/rubberdk/whisker_project) for codes
 
 
 # Introduction
@@ -46,7 +47,7 @@ Setting the 'OBJECT' parameter to 5 creates the object in the user-specified usi
     <img src="/img/rat/shell.png" alt="shell">
 </div>
 
-While this simulation operates in C++, changing an object or its parameters such as size, position, and orientation in the codes would have required re-compiling. However, using shell scripts to define those parameters eliminates the hassle of re-compiling. Example shell script is shown above with brief explanaiton. You can see more detail about the parametersin the[main_opengl.cpp](https://github.com/rubberdk/whisker_project/blob/master/code/src/main_opengl.cpp).
+While this simulation operates in C++, changing an object or its parameters such as size, position, and orientation in the codes would have required re-compiling. However, using shell scripts to define those parameters eliminates the hassle of re-compiling. Example shell script is shown above with brief explanaiton. You can see more detail about the parameters in the [main_opengl.cpp](https://github.com/rubberdk/whisker_project/blob/master/code/src/main_opengl.cpp).
 
 <div class="post-flex-display">
     <img src="/img/rat/xyz.png" alt="xyz">
