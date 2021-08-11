@@ -61,15 +61,22 @@ While this simulation operates in C++, changing an object or its parameters such
 
 
 # Parallel Simulation Over 97 different Objects
+Simulating over multiple sets of objects with active vibrissial sensing is time consuming. Therefore, I utilized Northwestern University's [Quest](https://www.it.northwestern.edu/research/user-services/quest/) for the parallel simulation over 97 objects. The 97 objects include scans of natural objects such as rocks, tree branches, leaves, and fruits. Each object was simulated 10 times with smalll variation of their position and orientation. `TIME_STOP` parameter was set to 1.0 with `TIME_STOP` as 0.001. As a result, force and moment data of right side whiskers were obtained.
+
+Due to the lack of `sudo` access in Quest server, this part of the project is separated from the `master` branch to eliminate unecessary libraries for obtaining the simulation result. You can find the codes for parallel simulation in [questsim](https://github.com/rubberdk/whisker_project/tree/questsim) branch
 
 # User-Controllable Digital Rat Interface
+To control the digital rat's position and orientation with user input during the simulation, communication between the simulation codes and control codes were setup using `msgpack`. The control codes allow user to control the digital rat using keyboard and visually represent real-time the data that the rat obtains with vibrassial sensing.
+
+<div class="post-flex-display">
+    <img src="/img/rat/graph.gif" alt="graph">
+</div>
+*real-time force and moment data*
 
 
 # Future Plans
-The final goal of this project is to allow a digital rat to autobomoulsy explore and navigate a simulation world filled with obstacles. 
+The final goal of this project is to allow a digital rat to autobomoulsy explore and navigate a simulation world filled with obstacles. Based on the data that whiskers obtain, I can implement force control for the digital rat. The current problem is that activating all whiskers slow down the simulation. With activation of all whiskers, whisking over an object for 4 seconds in simulation time take about 20 minutes in real time. I am considering using Unity Engine or Unreal Engine to finish the autonomous exploration part.
 
-# 3D Objects Placement In the Simulation World
-Although WHISKiT Physics Simulator provides a three-dimensional mechanical model of the rat vibrissal array, it does not allow the user to change or add objects for the simulation unless they are pre-defined in the source codes. Since the simulator operates on C++, modifying source codes   
 
 
 ## References
