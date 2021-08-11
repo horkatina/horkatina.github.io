@@ -69,7 +69,7 @@ Due to the lack of `sudo` access in Quest server, this part of the project is se
 To control the digital rat's position and orientation with user input during the simulation, communication between the simulation codes and control codes were setup using `msgpack`. The control codes allow user to control the digital rat using keyboard and visually represent real-time the data that the rat obtains with vibrassial sensing.
 
 <div class="post-flex-display">
-    <img src="/img/rat/graph.gif" alt="graph">
+    <img src="/img/rat/graph.png" alt="graph">
 </div>
 *real-time force and moment data*
 
