@@ -15,6 +15,8 @@ This is a Winter Project of MSR Program at Northwestern University
 
 you can check out code at my [github repository](https://github.com/rubberdk/Firefighting_Robot_Arm)
 
+The extended project improve fire sensing has been completed! You can check out my [Fire & Thermal Object 3D Tracking]() post!
+
 
 ### Demo Video
 [![1](http://img.youtube.com/vi/1XVxniZMIpI/0.jpg)](http://www.youtube.com/watch?v=1XVxniZMIpI)
@@ -35,22 +37,29 @@ Therefore, I implemented a firefighting mechanism using HDT Adroit 6 DOF A24 Pin
 
 # HARDWARES
 HDT Adroit 6DOF A24 Pincer
-![fire_extinguisher](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/adroit.jpg?raw=true)
-
+<div class="post-flex-display">
+    <img src="/img/adroit/adroit.jpg" alt="adroit">
+</div>
 
 
 Fixed-hose fire extinguisher
-![fire_extinguisher](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/fe.jpg?raw=true)
-
+<div class="post-flex-display">
+    <img src="/img/adroit/fireext.png" alt="fire_extinguisher">
+</div>
 
 
 FLIR Lepton 2.5 - Thermal Imaging Module
-![thermal_camera](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/lepton2.5.jpg?raw=true)
+<div class="post-flex-display">
+    <img src="/img/adroit/lepton.jpg" alt="lepton">
+</div>
 
 
 
 PureThermal 2 - FLIR Lepton Smart I/O Board
-![purethermal](https://github.com/rubberdk/Firefighting_Robot_Arm/blob/master/images/purethermal2.jpg?raw=true)
+<div class="post-flex-display">
+    <img src="/img/adroit/purethermal.jpg" alt="purethermal">
+</div>
+
 
 
 
