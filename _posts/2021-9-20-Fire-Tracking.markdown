@@ -157,5 +157,5 @@ Another application of this project is that we can use it keep track human too.
 </div>
 
 <div class="post-flex-display">
-    <img src="/img/adroit/human_tracking.gif" alt="human">
+    <img src="/img/adroit/human_track.gif" alt="human2">
 </div>
