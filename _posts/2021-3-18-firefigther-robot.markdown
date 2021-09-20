@@ -15,7 +15,7 @@ This is a Winter Project of MSR Program at Northwestern University
 
 you can check out code at my [github repository](https://github.com/rubberdk/Firefighting_Robot_Arm)
 
-The extended project improve fire sensing has been completed! You can check out my [Fire & Thermal Object 3D Tracking]() post!
+The extended project improve fire sensing has been completed! You can check out my [Fire & Thermal Object 3D Tracking](https://dokkev.github.io/Fire-Tracking/) post!
 
 
 ### Demo Video
@@ -59,7 +59,6 @@ PureThermal 2 - FLIR Lepton Smart I/O Board
 <div class="post-flex-display">
     <img src="/img/adroit/purethermal.jpg" alt="purethermal">
 </div>
-
 
 
 
