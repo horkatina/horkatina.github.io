@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digital Rat Exploration with Active Vibrissal Sensing
+title: Whisker-based Tacile Sensing Simulation
 image: img/rat_nav.gif
 tags: [C++, BulletPhysics, Whikser, Rat, Simulation]
 featured: true
