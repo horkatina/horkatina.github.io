@@ -4,8 +4,8 @@ title: "DONGHO KANG"
 description: "Robotics"
 logo: 'img/icon.png'
 favicon: 'img/icon.png'
-baseurl: "https://rubberdk.github.io"
-url: "https://rubberdk.github.io"
+baseurl: "https://dokkev.github.io"
+url: "https://dokkev.github.io"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,7 +19,7 @@ authors:
     display_name: Dongho Kang (DK)
     avatar: 'img/dkprofile.jpg'
     email: dhk6869@gmail.com
-    web: https://rubberdk.github.io/about
+    web: https://dokkev.github.io/about
     description: "Robotician at Northwestern University"
 # Plugins
 plugins:
