@@ -121,26 +121,32 @@ When it comes to combining two cameras, thermal image and depth image are deviat
     <img src="/img/adroit/fire1.png" alt="fire1">
 </div>
 
+
 <div class="post-flex-display">
     <img src="/img/adroit/fire2.png" alt="fire2">
 </div>
+
 
 <div class="post-flex-display">
     <img src="/img/adroit/fire3.png" alt="fire3">
 </div>
 
+
 <div class="post-flex-display">
     <img src="/img/adroit/fire4.png" alt="fire4">
 </div>
+
 
 <div class="post-flex-display">
     <img src="/img/adroit/fire_color.png" alt="firecolor">
 </div>
 
+
 <div class="post-flex-display">
     <img src="/img/adroit/fire_comc.png" alt="firecolorc">
 </div>
 (*Thermal Image + Color Image*)
+
 
 <div class="post-flex-display">
     <img src="/img/adroit/fire_comd.png" alt="firecolord">
@@ -155,6 +161,7 @@ Another application of this project is that we can use it keep track human too.
 <div class="post-flex-display">
     <img src="/img/adroit/human.png" alt="human">
 </div>
+
 
 <div class="post-flex-display">
     <img src="/img/adroit/human_track.gif" alt="human2">
