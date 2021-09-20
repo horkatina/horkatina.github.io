@@ -36,7 +36,7 @@ The controller uses two feedback loops:
 The output torque of the motor is drectly proportional to the current. Therefore we change the amount of current into the motor and control the torque and speed ofthe motor. This process can be done by seeing the duty cycle of a PWM signal corresponds to the desired torque. The MAX9918 current-sense amplifier is used to read the current at any given moment - specifically, it reads the current at 5kHz for the control loop, and a PI controller is implemented to set the right duty cycle.
 
 <div class="post-flex-display">
-    <img src="/img/motor/diagram.png" alt="diagram">
+    <img src="/img/motor/current_control.jpg" alt="cc">
 </div>
 (*Performance of the current control*)
 
@@ -54,7 +54,7 @@ A PID controller is used for position control. It uses encoder information to de
 
 
 <div class="post-flex-display">
-    <img src="/img/motor/step.png" alt="step">
+    <img src="/img/motor/step.jpg" alt="step">
 </div>
 (*Performance of the position control for a step trajectory*)
 
@@ -67,7 +67,7 @@ A PID controller is used for position control. It uses encoder information to de
 
 
 <div class="post-flex-display">
-    <img src="/img/motor/cubic.png" alt="cubic">
+    <img src="/img/motor/cubic.jpg" alt="cubic">
 </div>
 (*Performance of the position control for a cubic trajectory*)
 
