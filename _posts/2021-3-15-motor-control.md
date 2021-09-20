@@ -3,7 +3,6 @@ layout: post
 title: PID based Feedback Control of DC Motor
 image: img/motor/step.gif
 tags: [C, DC Motor, SPI, UART, Mechatronics, Feedback Control]
-hidden: true
 author: dk
 ---
 
