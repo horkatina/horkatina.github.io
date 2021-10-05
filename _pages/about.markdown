@@ -29,11 +29,11 @@ Soft actuators have enormous potential to expand the capabilities of robotic man
 
 
 ### Research Interest
- - Sensing and Manipulation
- - Soft Acutators/Robotics
+ - Dynamic Tacile Sensing
+ - Adaptive Grasping
  - Bio-inspired Sensors/Robots
- - Human Robot Collaboration 
- - Human-Robot Interaction
+ - Soft Acutators/Robotics
+ - Automomous System
 
 
 
