@@ -20,10 +20,10 @@ My [Autonomous Fire Fighter Robot Arm](https://dokkev.github.io/firefigther-robo
 ### Research Interests
 I hope to pursue a Ph.D. to investigate dexterous robotic manipulation after my Master studies. 
 
-<strong>Adaptive Grasping with Dynamic Tactile Sensing</strong>
+<strong>Adaptive Grasping with Dynamic Tactile Sensing,</strong>
 While human hands can grab a wide variety of shapes and sizes thanks to multiple fingers with multiple degrees of freedom and especially our control capability with tactile and force sensing<sup>2</sup>, the existing gripper manipulator lacks mechanical input such as target object’s shape, size, mass, etc. Tactile sensing enables the measurement of information necessary for dexterous manipulation. Dynamic tactile sensing is especially important in robotic manipulation. When a human throws and catches an object, or when someone is grasping an object and it slips or falls out. Those sorts of events occur in a short duration of time, and dynamic tactile sensing comes useful with its capability to quickly respond to changes. Therefore, I hope to leverage dexterous robotic manipulation through researching dynamic tactile sensing for my doctoral studies.
 
-<strong>Control of Soft Actuator</strong>
+<strong>Control of Soft Actuator.</strong>
 Soft actuators have enormous potential to expand the capabilities of robotic manipulation. Having an infinite number of degrees of freedom and a non-rigid body allow robots to interact with environments flexibly. Therefore, I would like to research the fabrication and control of soft actuators to reduce cost and accelerate actuation speed for soft robotic applications while current soft actuators face problems such as idleness and bulkiness from their complicated actuation mechanism.
 
 

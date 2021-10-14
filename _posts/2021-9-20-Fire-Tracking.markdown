@@ -83,12 +83,7 @@ Getting the pixel coordinate (u,v) from the centroid of thermal image's contour,
 The evaluate depth sensing, the result was compared to measurement with a ruler. The error range was about +-100 mm at maximum when measuring distance from 1.2 m to 0.3 m. The error got greater as the depth camera was more far away from the target object.
 
 
-<div class="post-flex-display">
-    <img src="/img/adroit/dev.png" alt="deviation">
-</div>
-
-When it comes to combining two cameras, thermal image and depth image are deviated from each other. Therefore it's important align two cameras properly. `ropstopic` `combined_image2` provides combined images of color image and thermal image to provide how well two cameras are aligned while `combined_image` provides combined images of aligned color to depth image and thermal image.
-
+When it comes to combining two cameras, thermal image and depth image are deviated from each other. Therefore it's important align two cameras properly. `ropstopic` `combined_image2` provides combined images of color image and thermal image to provide how well two cameras are aligned while `combined_image` provides combined images of aligned color to depth image and thermal image. Thermal camera and realsense camera should be calibrated to avoid error due to cameras deviation.
 
 
 
