@@ -4,7 +4,7 @@ title: Fire & Thermal Object 3D Tracking
 image: img/adroit/fire_tracking.gif
 tags: [Python, Depth Sensing, Thermal Imaging, Rat, Point Cloud]
 featured: false
-hidden: true
+hidden: false
 author: dk
 ---
 
