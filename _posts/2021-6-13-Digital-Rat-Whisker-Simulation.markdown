@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Whisker-based Tacile Sensing Simulation
+title: Whisker-based Tactile Sensing Simulation
 image: img/rat_nav.gif
 tags: [C++, BulletPhysics, Whikser, Rat, Simulation]
 featured: true
@@ -75,7 +75,7 @@ To control the digital rat's position and orientation with user input during the
 
 
 # Future Plans
-The final goal of this project is to allow a digital rat to autobomoulsy explore and navigate a simulation world filled with obstacles. Based on the data that whiskers obtain, I can implement force control for the digital rat. The current problem is that activating all whiskers slow down the simulation. With activation of all whiskers, whisking over an object for 4 seconds in simulation time take about 20 minutes in real time. I am considering using Unity Engine or Unreal Engine to finish the autonomous exploration part.
+The final goal of this project is to build shape classifers with neural networks. Using `Tensorflow` gives advantages of convinient implementation of neural networks. With trained weights, I am planning to implement real-time classifer. Ultimately, I will integrate reinforcement learning to imitate and compare how real rats use their whiskers to sense objects.
 
 
 
