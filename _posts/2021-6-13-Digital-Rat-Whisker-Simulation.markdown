@@ -10,7 +10,7 @@ author: dk
 
 This is my Final Project for Master of Science in Robotics program at Northwestern University.
 This is still on-going project which will be finihsed in December 2021. This post includes the progress up to June 2021.
-You can check my [github repository](https://github.com/rubberdk/whisker_project) for codes
+You can check my [github repository](https://github.com/dokkev/whisker_project) for codes
 
 
 # Introduction
