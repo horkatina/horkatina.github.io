@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Whisker-based Tactile Sensing Simulation
+title: WHISKiT Physics Simulator Modification
 image: img/rat_nav.gif
 tags: [C++, BulletPhysics, Whikser, Rat, Simulation]
-featured: true
+featured: false
 hidden: true
 author: dk
 ---
-
-This is my Final Project for Master of Science in Robotics program at Northwestern University.
+This post expalins how I modified [WHISKiT Physics Simulator](https://github.com/SeNSE-lab/whiskitphysics)
+This is a part of my Final Project for Master of Science in Robotics program at Northwestern University.
 This is still on-going project which will be finihsed in December 2021. This post includes the progress up to June 2021.
 You can check my [github repository](https://github.com/dokkev/whisker_project) for codes
 
