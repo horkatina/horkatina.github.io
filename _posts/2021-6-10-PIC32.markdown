@@ -1,0 +1,9 @@
+---
+layout: post
+title: Mechatronics with PIC32
+image: img/led.gif
+tags: [PIC32, Prototyping]
+featured: false
+hidden: false
+author: dk
+---
