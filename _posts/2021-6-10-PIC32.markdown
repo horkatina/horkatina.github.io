@@ -7,3 +7,7 @@ featured: false
 hidden: false
 author: dk
 ---
+
+
+[PIC32 Mictrocontroller](https://www.microchip.com/en-us/product/PIC32MX795F512H)
+[MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
