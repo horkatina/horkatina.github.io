@@ -9,10 +9,21 @@ author: dk
 ---
 PIC microcontrollers ( Programmable Interface Controllers), are electronic circuits that can be programmed to perform various tasks. This post includes some mechantronics tasks with [PIC32 Mictrocontroller](https://www.microchip.com/en-us/product/PIC32MX795F512H) and [MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide). You can check out the source codes at my [Github](https://github.com/dokkev/ME433-Adv.-Mechatronics)
 
-# Voltage Regulator and PIC32 Circuit
+# Voltage Regulator and Basic PIC32 Circuit 
+[Github Repo](https://github.com/dokkev/ME433-Adv.-Mechatronics/tree/master/hw4)
 
-### Building the 3.3V regulator
 We have 5V between the VBUS and GND pins. Using VBUS as the input to the pololu, we can get 3.3V out. Add a red LED in series with a 330 ohm resistor to the 3.3V output voltage, and check the voltage again. We'll use 3.3V and ground a lot, so make the rails on your breadboard 3.3V and ground according to the color code on the breadboard.
+
+Circuit Construction Procedure
+
+- Connect all VDD pins to 3.3V, all VSS pins to GND. Each VDD pin gets a 0.1uF or 1uF capacitor to GND (either value works). The capacitor is supposed to be as close to the pins as possible, to suppress noise that might make the PIC turn off if the power line fluctuates.
+- Connect the VCAP pin to a 10uF capacitor to GND, note that the 10uF capacitor is polarized.
+- Use the long header pins to connect the MPLAB Snap programmer to the breadboard. Pin one of the Snap is labeled with a black triangle. Connect the Snap - VDD to 3.3V and GND to GND. Connect PGD to PGED1 and PGC to PGEC1 of the PIC. Connect the Snap MCLR to MCLR of the PIC.
+- Connect MCLR to a 10k pull-up resistor and a pushbutton to GND, this is the Reset button.
+- Connect the PIC OSC1 and OSC2 pins to the outside pins of the 8MHz resonator, and the center pin of the resonator to GND. The wires that connect the resonator to the PIC should be the same length and the resonator should be as close to the PIC as you can make it. These are the minimum connections necessary to make the PIC work, but with no inputs or outputs it is hard to tell, so we'll add an LED and a User button.
+- Connect pin A4 to a green LED to a 330 ohm resistor to GND.
+- Connect pin B4 to a 10k pull-up resistor and a pushbutton to GND.
+
 
 <div class="post-flex-display">
     <img src="/img/adv/4.jpg">
@@ -28,9 +39,13 @@ We have 5V between the VBUS and GND pins. Using VBUS as the input to the pololu,
 
 
 
+[MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) provides programming enviroment and communication to the PIC32. We will make a circuit which initializes B4 as input and A4 as output that is initially off. In the infinite loop, if the value of B4 is pushed, turn on A4 for 0.5s, off for 0.5s, on for 0.5s, and off for 0.5s (so two one-second square wave blinks)
+
+
 <div class="post-flex-display">
     <img src="/img/adv/4demo.gif">
 </div>
 *Demo*
 
 
+#
