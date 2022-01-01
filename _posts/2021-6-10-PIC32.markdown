@@ -26,14 +26,14 @@ We have 5V between the VBUS and GND pins. Using VBUS as the input to the pololu,
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/4.jpg" alt="circuit">
+    <img src="/img/mec/c4.png" alt="circuit1">
 </div>
 *Circuit Diagram*
 
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/5.png" alt="circuit">
+    <img src="/img/adv/i4.jpg" alt="circuit">
 </div>
 *Circuit Image*
 
