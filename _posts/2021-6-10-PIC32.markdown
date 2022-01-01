@@ -26,14 +26,14 @@ Circuit Construction Procedure
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/4.jpg">
+    <img src="/img/adv/4.jpg" alt="circuit">
 </div>
 *Circuit Diagram*
 
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/5.png">
+    <img src="/img/adv/5.png" alt="circuit">
 </div>
 *Circuit Image*
 
@@ -43,7 +43,7 @@ Circuit Construction Procedure
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/4demo.gif">
+    <img src="/img/adv/4demo.gif" alt="demo">
 </div>
 *Demo*
 
