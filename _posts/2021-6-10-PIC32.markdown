@@ -7,7 +7,30 @@ featured: false
 hidden: false
 author: dk
 ---
+PIC microcontrollers ( Programmable Interface Controllers), are electronic circuits that can be programmed to perform various tasks. This post includes some mechantronics tasks with [PIC32 Mictrocontroller](https://www.microchip.com/en-us/product/PIC32MX795F512H) and [MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide). You can check out the source codes at my [Github](https://github.com/dokkev/ME433-Adv.-Mechatronics)
+
+# Voltage Regulator and PIC32 Circuit
+
+### Building the 3.3V regulator
+We have 5V between the VBUS and GND pins. Using VBUS as the input to the pololu, we can get 3.3V out. Add a red LED in series with a 330 ohm resistor to the 3.3V output voltage, and check the voltage again. We'll use 3.3V and ground a lot, so make the rails on your breadboard 3.3V and ground according to the color code on the breadboard.
+
+<div class="post-flex-display">
+    <img src="/img/adv/4.jpg">
+</div>
+*Circuit Diagram*
 
 
-[PIC32 Mictrocontroller](https://www.microchip.com/en-us/product/PIC32MX795F512H)
-[MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+
+<div class="post-flex-display">
+    <img src="/img/adv/5.png">
+</div>
+*Circuit Image*
+
+
+
+<div class="post-flex-display">
+    <img src="/img/adv/4demo.gif">
+</div>
+*Demo*
+
+
