@@ -14,7 +14,7 @@ PIC microcontrollers ( Programmable Interface Controllers), are electronic circu
 
 We have 5V between the VBUS and GND pins. Using VBUS as the input to the pololu, we can get 3.3V out. Add a red LED in series with a 330 ohm resistor to the 3.3V output voltage, and check the voltage again. We'll use 3.3V and ground a lot, so make the rails on your breadboard 3.3V and ground according to the color code on the breadboard.
 
-Circuit Construction Procedure
+#### Circuit Construction Procedure:
 
 - Connect all VDD pins to 3.3V, all VSS pins to GND. Each VDD pin gets a 0.1uF or 1uF capacitor to GND (either value works). The capacitor is supposed to be as close to the pins as possible, to suppress noise that might make the PIC turn off if the power line fluctuates.
 - Connect the VCAP pin to a 10uF capacitor to GND, note that the 10uF capacitor is polarized.
@@ -43,7 +43,7 @@ Circuit Construction Procedure
 
 
 <div class="post-flex-display">
-    <img src="/img/adv/4demo.gif" alt="demo">
+    <img src="/img/4demo.gif" alt="demo">
 </div>
 *Demo*
 
