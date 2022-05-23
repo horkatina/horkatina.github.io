@@ -1,11 +1,11 @@
 # Site
-name: "DONGHO KANG"
-title: "DONGHO KANG"
-description: "Dokkev Robotics"
+name: "Davin Park"
+title: "Davin Park"
+description: "Davin Park Portfolio"
 logo: 'img/icon.png'
 favicon: 'img/icon.png'
-baseurl: "https://dokkev.github.io"
-url: "https://dokkev.github.io"
+baseurl: "https://horkatina.github.io"
+url: "https://horkatina.github.io"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
