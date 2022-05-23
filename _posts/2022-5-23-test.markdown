@@ -1,0 +1,10 @@
+---
+layout: post
+title: TEST
+image: img/led.gif
+tags: [test]
+featured: false
+hidden: false
+author: dk
+---
+hello
